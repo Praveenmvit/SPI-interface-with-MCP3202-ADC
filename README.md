@@ -8,7 +8,7 @@ Designed an SPI controller in Verilog to interface with the MCP3202 ADC, which s
 
 MCP3202
 
-DIN - input from spi controller(mosi).
+DIN - input from spi controller(mosi).  
 DOUT - output from MCP3202 ADC output given to spi controller miso pin.
 
 
