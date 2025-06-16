@@ -7,12 +7,12 @@ Project:
 ![image](https://github.com/user-attachments/assets/3181e7d5-dafb-475a-9e7a-e7c38bbefc34)  
 
                  MCP3202  
-DIN - input from spi controller(mosi).  
-DOUT - output from MCP3202 ADC output given to spi controller miso pin. 
+DIN - Input from spi controller mosi pin.  
+DOUT - Output from MCP3202 ADC output given to spi controller miso pin. 
   
 ![image](https://github.com/user-attachments/assets/a3b844dc-694e-467d-9af2-b08a2709965b)  
   
-In the above waveform after chipselect (cs)' is made zero. the configuration bits are sent from spi controller to MCP3202 after sending start bit.  
+In the above waveform after chipselect (cs)' is made zero. The configuration bits are sent from spi controller to MCP3202 after sending start bit.  
   
 ![image](https://github.com/user-attachments/assets/158c20ae-39dc-4072-a82e-fa706cec6286)  
   
