@@ -5,6 +5,7 @@ Designed an SPI controller in Verilog to interface with the MCP3202 ADC, which s
 
 
 ![image](https://github.com/user-attachments/assets/3181e7d5-dafb-475a-9e7a-e7c38bbefc34)
+
 MCP3202
 
 DIN - input from spi controller(mosi).
