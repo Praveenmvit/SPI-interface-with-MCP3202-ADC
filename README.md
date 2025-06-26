@@ -8,7 +8,7 @@ https://www.edaplayground.com/x/hZj4
 <image src = "https://github.com/user-attachments/assets/3181e7d5-dafb-475a-9e7a-e7c38bbefc34">  
 </div>
 
-                                           **MCP3202**  
+                                                        **MCP3202**  
 DIN - Input from spi controller mosi pin.  
 DOUT - Output from MCP3202 ADC output given to spi controller miso pin. 
   
