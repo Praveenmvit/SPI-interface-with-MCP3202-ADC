@@ -16,13 +16,17 @@ DOUT - Output from MCP3202 ADC output given to spi controller miso pin.
 </div>
 
 In the above waveform after chipselect (cs)' is made zero. The configuration bits are sent from spi controller to MCP3202 after sending start bit.  
-  
-![image](https://github.com/user-attachments/assets/158c20ae-39dc-4072-a82e-fa706cec6286)  
+
+<div align="center">
+<image src = "https://github.com/user-attachments/assets/158c20ae-39dc-4072-a82e-fa706cec6286">  
+</div>
   
 The MSBF define whether Most significant bit need to be send first from ADC or least significant bit from ADC.  
-Below is the waveform if MSBF=0 first.    
-  
-![image](https://github.com/user-attachments/assets/02bb8553-38f4-44f6-ae77-eb91c61f98ac)  
+Below is the waveform if MSBF=0 first.  
+
+<div align="center">
+<image src = "https://github.com/user-attachments/assets/02bb8553-38f4-44f6-ae77-eb91c61f98ac">  
+</div>
   
 In the tb.v code this configuration are hard coded.
 
