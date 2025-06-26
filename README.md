@@ -2,7 +2,7 @@
 hello
 https://www.edaplayground.com/x/hZj4  
 ## <ins>**Project:**</ins>  
-1. Designed an SPI controller in Verilog to interface with the MCP3202 ADC, which samples analog input signals and converts them into 12-bit digital values. The converted data is received by the FPGA through this SPI controller.
+1. Designed an SPI controller in Verilog to interface with the MCP3202 ADC, which samples analog input signals and converts them into 12-bit digital values. The converted data is received by the FPGA through this SPI controller.  
 MCP = Microchip  
 3 = 12-bit ADC family  
 2 = 2 input channels  
